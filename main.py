@@ -128,8 +128,8 @@ photo_path = 'image1.jpg'
 introduction = "안녕하세요, 05년생 25학번 김가은입니다."
 # 이후 실행하고
 # 터미널에 입력할 User inputs(이름, 전공)
-name = input("Enter your name: 김가은 ")
-student_major = input("Enter your major: 불어불문학과")
+name = input("Enter your name: ")
+student_major = input("Enter your major: ")
 
 # Generate and save profile as an image
 generate_profile(name, student_major, team, photo_path, introduction, output_image_path=name+"_profile.png")
